@@ -1,5 +1,12 @@
+import Nav from "../../components/nav";
+
 export default function Post({ post }) {
-  return <div>{post.title}</div>;
+  return (
+    <>
+      <Nav />
+      <div>{post.title}</div>
+    </>
+  );
 }
 
 export async function getStaticProps({ params }) {

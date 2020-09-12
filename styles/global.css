@@ -2,3 +2,11 @@ body {
   font-family: arial;
   padding: 20px 5vmax;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

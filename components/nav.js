@@ -15,6 +15,10 @@ export default function Nav() {
       <style jsx>{`
         a {
           margin: 20px;
+          display: inline-block;
+          background-color: black;
+          color: white;
+          padding: 10px 30px;
         }
       `}</style>
     </>
